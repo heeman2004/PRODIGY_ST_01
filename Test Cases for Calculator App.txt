@@ -1,0 +1,172 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TEST CASES FOR CALCULATOR APPLICATION
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Addition Test Cases
+--------------------------------
+TC001: Add two positive integers
+--------------------------------
+Test Description: Verify that the calculator correctly adds two positive integers. Preconditions: Calculator application is open. Test Steps:
+
+    (1)Enter 5.
+
+    (2)Press the + button.
+
+    (3)Enter 7.
+
+    (4)Press the = button.
+
+    Expected Result: The displayed result should be 12.
+--------------------------------------------
+TC002: Add a positive and a negative integer
+--------------------------------------------
+Test Description: Verify addition with one positive and one negative integer. Preconditions: Calculator application is open. Test Steps:
+
+    (1)Enter 9.
+
+    (2)Press the + button.
+
+    (3)Enter -3.
+
+    (4)Press the = button.
+
+    Expected Result: The displayed result should be 6.
+------------------------------
+TC003: Add two decimal numbers
+------------------------------
+Test Description: Verify addition of two decimal numbers. Preconditions: Calculator application is open. Test Steps:
+
+    (1)Enter 2.5.
+
+    (2)Press the + button.
+
+    (3)Enter 3.7.
+
+    (4)Press the = button.
+
+    Expected Result: The displayed result should be 6.2.
+
+2. Subtraction Test Cases
+-------------------------------------
+TC004: Subtract two positive integers
+-------------------------------------
+Test Description: Verify subtraction of two positive integers. Preconditions: Calculator application is open. Test Steps:
+
+    (1)Enter 15.
+
+    (2)Press the - button.
+
+    (3)Enter 8.
+
+    (4)Press the = button.
+
+    Expected Result: The displayed result should be 7.
+-----------------------------------------------------
+TC005: Subtract a larger number from a smaller number
+-----------------------------------------------------
+Test Description: Verify subtraction when the first number is smaller. Preconditions: Calculator application is open. Test Steps:
+
+    (1)Enter 4.
+
+    (2)Press the - button.
+
+    (3)Enter 9.
+
+    (4)Press the = button.
+
+    Expected Result: The displayed result should be -5.
+----------------------------
+3. Multiplication Test Cases
+----------------------------
+TC006: Multiply two positive integers
+
+Test Description: Verify multiplication of two positive integers. Preconditions: Calculator application is open. Test Steps:
+
+    (1)Enter 6.
+
+    (2)Press the * button.
+
+    (3)Enter 7.
+
+    (4)Press the = button.
+
+    Expected Result: The displayed result should be 42.
+-----------------------
+TC007: Multiply by zero
+-----------------------
+Test Description: Verify that multiplying any number by zero results in zero. Preconditions: Calculator application is open. Test Steps:
+
+    (1)Enter 12.
+
+    (2)Press the * button.
+
+    (3)Enter 0.
+
+    (4)Press the = button.
+
+    Expected Result: The displayed result should be 0.
+
+4. Division Test Cases
+-----------------------------------
+TC008: Divide two positive integers
+-----------------------------------
+Test Description: Verify division of two positive integers. Preconditions: Calculator application is open. Test Steps:
+
+    (1)Enter 20.
+
+    (2)Press the / button.
+
+    (3)Enter 4.
+
+    (4)Press the = button.
+
+    Expected Result: The displayed result should be 5.
+------------------------------
+TC009: Divide a number by zero
+------------------------------
+Test Description: Verify division by zero. Preconditions: Calculator application is open. Test Steps:
+
+    (1)Enter 10.
+
+    (2)Press the / button.
+
+    (3)Enter 0.
+
+    (4)Press the = button.
+
+    Expected Result: The calculator should display an error message (e.g., Cannot divide by zero).
+
+5. Invalid Input Test Cases
+-----------------------------------
+TC010: Enter non-numeric characters
+-----------------------------------
+Test Description: Verify handling of non-numeric input. Preconditions: Calculator application is open. Test Steps:
+
+    (1)Enter A.
+
+    (2)Press the + button.
+
+    (3)Enter 5.
+
+    (4)Press the = button.
+
+    Expected Result: The calculator should display an error message (e.g., Invalid input).
+-----------------------
+TC011: Test BODMAS rule
+-----------------------
+Test Description: Verify correct calculation order following BODMAS. Preconditions: Calculator application is open. Test Steps:
+
+    (1)Enter 5.
+
+    (2)Press the + button.
+
+    (3)Enter 3.
+
+    (4)Press the * button.
+
+    (5)Enter 2.
+
+    (6)Press the = button.
+
+    Expected Result: The displayed result should be 11 (since multiplication takes precedence over addition).
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
